@@ -1,0 +1,23 @@
+{
+  "vocab_size": 30522,
+  "embedding_size": 1024,
+  "hidden_size": 1024,
+  "outer_hidden_size": 1024,
+  "inner_hidden_size": 1024,
+  "teacher_hidden_size": 1024,
+  "num_hidden_layers": 24,
+  "num_hidden_groups": 24,
+  "inner_group_num": 1,
+  "num_attention_heads": 16,
+  "size_per_head": 64,
+  "num_ffn_layers": 1,
+  "intermediate_size": 4096,
+  "hidden_act": "gelu",
+  "use_pooler": true,
+  "hidden_dropout_prob": 0.1,
+  "attention_probs_dropout_prob": 0.1,
+  "max_position_embeddings": 512,
+  "use_type_embeddings": true,
+  "type_vocab_size": 2,
+  "initializer_range": 0.02
+}
